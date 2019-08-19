@@ -120,4 +120,4 @@ for(var i = 0; i < inventory.length; i++){
     BMWAndAudi.push(inventory[i].car_make);
   }
 }
-console.log(BMWAndAudi);
+console.log(JSON.stringify(BMWAndAudi));
